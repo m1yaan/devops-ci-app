@@ -5,7 +5,7 @@
 CI: Pylint → pytest → Docker build → smoke-test → GHCR.
 
 Публикация образа выполняется только из `main`. В Pull Request выполняются
-проверки без push.
+проверки без push. 
 
 - health endpoint: `/health`;
 - образ: `ghcr.io/<login>/devops-ci-app`;
